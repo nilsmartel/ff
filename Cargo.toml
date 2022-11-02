@@ -1,5 +1,5 @@
 [package]
-name = "ff"
+name = "ffind"
 version = "0.1.0"
 edition = "2021"
 authors = ["Nils Steffen Martel"]
@@ -8,5 +8,9 @@ license = "MIT"
 repository = "https://github.com/nilsmartel/ff"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+path = "src/main.rs"
+name = "ff"
 
 [dependencies]
