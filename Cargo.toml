@@ -1,6 +1,6 @@
 [package]
 name = "ffind"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Nils Steffen Martel"]
 description = "Very simple, very fast file finder"
@@ -14,3 +14,4 @@ path = "src/main.rs"
 name = "ff"
 
 [dependencies]
+anyhow = "1.0.86"
